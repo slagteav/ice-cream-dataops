@@ -39,7 +39,7 @@ workflowDefinition:
       function:
         externalId: oee_timeseries
         data: { "hours": 1 }
-    retries: 3
+    retries: 2
     timeout: 3600
     onFailure: abortWorkflow
     dependsOn:
